@@ -7,4 +7,12 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "posts#index"
+
+
+
+  # Rails shorthand that automatically provides the full set of RESTful routes CRUD (Create, Read, Update, Delete) actions
+  resources :trips
+
+
+
 end
